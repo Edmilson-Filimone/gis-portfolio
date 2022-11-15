@@ -1,0 +1,161 @@
+/*MIDIA QUERIES*/
+
+/*LARGE SCREENS - SINCE: 840px */
+
+@media(min-width:840px){
+    html{
+        min-width:850px;
+    }
+     button.open_menu, button.close_menu{
+        display: none;
+    }
+}
+
+/*MEDIUM SCREENS - SINCE: 740px */
+
+@media(min-width:740px){
+    html{
+        min-width:850px;
+    }
+
+    .container .navbar{
+        margin-left:5%;
+        margin-right:5%;
+        padding-left:5%;
+        padding-right:5%;
+    }
+     button.open_menu, button.close_menu{
+        display: none;
+    }
+}
+
+
+/*MOBILE*/
+
+@media(max-width:739.99px){
+
+
+    /*HEADER*/
+
+    .container .header_container{
+        align-items: center;
+        position: fixed;
+        width: -webkit-fill-available;
+    }
+
+    .container .header_container .info{
+        display: none;
+    }
+
+    .header_container .logo span{
+        display: inline-block;
+        font-size:25px;
+        padding: 0px 0px 20px 0px;
+        margin-top:1px;
+    }
+
+    /*IMAGE-CARROSSEL*/
+    .main_container{
+        overflow-x: hidden;
+    }
+    .main_container .carrossel-img{
+        object-fit:contain;
+        width: 110vw;
+    }
+
+
+    /*NAVBAR*/
+    .container nav .navbar{
+        display: none;
+        position:fixed;
+        left: -12vw;
+        top: -1vh;
+        width:100vw;
+        height: 74vh;
+        text-align: center;
+        background-color: #494949c0;
+        color: #FFFFFF;
+        z-index: 500000;  
+    }
+
+    .navbar li, .navbar li a{
+        color: #FFFFFF;
+        background-color: #49494900;
+        padding: 10%;
+    }
+
+    .close_menu{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        left:50%;
+        font-size: 18px;
+    }
+
+    .open_menu{
+        position: relative;
+        margin-top: 2%;
+        left: 40%;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /*CATEGORIES*/
+
+    .main_container{
+        padding-top: 20%;
+    }
+
+   .main_container .category{
+    display: flex;
+    flex-flow: column wrap;
+    }
+
+    .category .categ-box{
+        margin-bottom: 5%;
+    }
+
+    .products .prod_conteiner{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .prod_conteiner .prod_box{
+        margin-bottom: 5%;
+    }
+    
+    /*Buttons*/
+    .flex-button{
+        display: flex;
+    }
+    
+    /*FOOTER*/
+    footer{
+        display:block;
+    }
+    footer h1.logo{font-size: 1.8em; font-family: 'iDroid', Calibri;}
+
+    /*ABOUT-PAGE*/
+    
+    .container .main_container{
+    }
+
+    .main_container .contacts{
+        display:block;
+        justify-content:space-around;
+        padding-top:30%;
+        text-align:center;
+        min-width: 400px;
+    }
+
+    .contacts .list-info{
+        text-align: left;
+        min-width:400px;
+        padding-left: 30%;
+        padding-right:10%;
+    }
+ p, h3{
+    padding: 5%;
+ }
+}

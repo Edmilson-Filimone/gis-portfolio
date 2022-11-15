@@ -21,6 +21,7 @@
 body {
     background-color: var(--cor-1);
     overflow-x: hidden;
+    min-width: 400px;
 }
 
 /*HEADER*/

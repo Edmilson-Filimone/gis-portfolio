@@ -110,6 +110,7 @@
    .main_container .category{
     display: flex;
     flex-flow: column wrap;
+    padding:0px;
     }
 
     .category .categ-box{

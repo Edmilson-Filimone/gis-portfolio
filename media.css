@@ -125,6 +125,10 @@
     .prod_conteiner .prod_box{
         margin-bottom: 5%;
     }
+    .imagem_galeria{
+      min-width:340px;
+      width:360px;
+     }
     
     /*Buttons*/
     .flex-button{

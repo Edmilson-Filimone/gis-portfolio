@@ -126,8 +126,8 @@
         margin-bottom: 5%;
     }
     .imagem_galeria{
-      min-width:340px;
-      width:360px;
+      max-width:340px;
+      width:340px;
      }
     
     /*Buttons*/

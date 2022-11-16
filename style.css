@@ -24,7 +24,7 @@ body {
     min-width: 400px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -166,7 +166,7 @@ li a.profile i {
 .main_container {
     object-fit: contain;
     width: 100vw;
-    min-width:400px;
+    min-width: 400px;
 }
 
 /*Main - Categorory*/
@@ -174,10 +174,9 @@ li a.profile i {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3%;
-    padding: 0% 10% 3% 10%;
+    padding: 0% 5% 3% 5%;
     margin-bottom: 150px;
-    min-width:400px;
-
+    min-width: 400px;
 }
 
 .category .categ-box {
@@ -208,7 +207,7 @@ li a.profile i {
 .imagem_galeria {
     width: 400px;
     max-width: 400px;
-    height:320px;
+    height: 320px;
 }
 
 .imagem_galeria:hover {
@@ -227,8 +226,8 @@ li a.profile i {
     background-image: -webkit-linear-gradient(95deg, rgba(219, 219, 0, 0.571), rgba(255, 166, 0, 0.522));
 }
 
-.icon-category{
-    color:rgba(0, 0, 0, 0.719);
+.icon-category {
+    color: rgba(0, 0, 0, 0.719);
 }
 
 /*Main - Products*/
@@ -237,7 +236,6 @@ li a.profile i {
     grid-column: 1/4;
     /*a ultima coluna ocupara todo o espaco*/
     background-color: var(--cor-3);
-    min-height: 1500px;
     padding: 2% 3% 7% 3%;
 }
 
@@ -251,7 +249,7 @@ li a.profile i {
 }
 
 .products .prod_box {
-    height:380px;
+    height: 380px;
     border-radius: 8px;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(102, 102, 102, 0.64);
     -moz-box-shadow: 0px 0px 10px 0px rgba(102, 102, 102, 0.64);
@@ -273,7 +271,8 @@ li a.profile i {
 }
 
 .flex-button {
-    display: none; /*the buttons will be hidden, it will only show in hover*/
+    display: none;
+    /*the buttons will be hidden, it will only show in hover*/
     position: relative;
     bottom: 20px;
     flex-wrap: wrap;
@@ -282,7 +281,7 @@ li a.profile i {
 
 }
 
-.prod_box:hover .flex-button{
+.prod_box:hover .flex-button {
     display: flex;
 }
 
@@ -305,7 +304,7 @@ li a.profile i {
 
 .btn-download {
     background-color: #08AEEA;
-    background-image: linear-gradient(247deg, #08AEEA 0%, #2AF598 100%);    
+    background-image: linear-gradient(247deg, #08AEEA 0%, #2AF598 100%);
 }
 
 li button:hover {
@@ -323,20 +322,22 @@ footer {
     color: white;
 }
 
-footer .adress {
+footer .address {
     list-style: none;
     margin-right: 15%;
 }
 
-.adress li {
+.address li {
     width: max-content;
     padding-bottom: 2%;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer .icons {
     display: flex;
     justify-content: space-between;
-    gap:5px;
+    gap: 5px;
     margin-right: 15%;
 }
 
@@ -347,11 +348,11 @@ footer .icons {
 
 }
 
-.icons li a{
+.icons li a {
     color: white;
 }
 
 footer h1.logo {
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-family: 'iDroid', Calibri;
 }

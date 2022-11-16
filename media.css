@@ -2,9 +2,9 @@
 
 /*LARGE SCREENS - SINCE: 1100px */
 
-@media (min-width:1100px){
+@media (min-width:1025px){
     html{
-        min-width:850px;
+        min-width:1025px;
     }
      button.open_menu, button.close_menu{
         display: none;
@@ -13,7 +13,7 @@
 
 /*Tablets SCREENS - SINCE: 740px */
 
-@media(min-width:740px) and (max-width:1098px){
+@media(min-width:740px) and (max-width:1024px){
     html{
         min-width:850px;
     }
@@ -152,11 +152,24 @@
     footer{
         display:block;
     }
-    footer h1.logo{font-size: 1.8em; font-family: 'iDroid', Calibri;}
 
+    .address{
+        display: none;
+    }
+
+    .address{
+        display: none;
+    }
+
+    footer h1.logo{font-size: .8em; font-family: 'iDroid', monospace; text-align: center;}
+
+    footer .icons{
+        justify-content: center;
+        margin: 0;
+    }
     /*ABOUT-PAGE*/
     .author-profile{
-        justify-content: flex-start;
+        justify-content: center;
     }
     .paragraph-about{
         text-align: left;

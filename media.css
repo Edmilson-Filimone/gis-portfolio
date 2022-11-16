@@ -1,8 +1,8 @@
 /*MIDIA QUERIES*/
 
-/*LARGE SCREENS - SINCE: 840px */
+/*LARGE SCREENS - SINCE: 1100px */
 
-@media(min-width:840px){
+@media (min-width:1100px){
     html{
         min-width:850px;
     }
@@ -11,9 +11,9 @@
     }
 }
 
-/*MEDIUM SCREENS - SINCE: 740px */
+/*Tablets SCREENS - SINCE: 740px */
 
-@media(min-width:740px){
+@media(min-width:740px) and (max-width:1098px){
     html{
         min-width:850px;
     }
@@ -27,6 +27,16 @@
      button.open_menu, button.close_menu{
         display: none;
     }
+
+    .products .prod_conteiner{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .imagem_galeria{
+        max-width:70%;
+        width:70%;
+       }
 }
 
 
@@ -70,10 +80,11 @@
         position:fixed;
         left: -12vw;
         top: -1vh;
+        min-width: 400px;
         width:100vw;
         height: 74vh;
         text-align: center;
-        background-color: #494949c0;
+        background-color: #494949d0;
         color: #FFFFFF;
         z-index: 500000;  
     }
@@ -125,6 +136,8 @@
     .prod_conteiner .prod_box{
         margin-bottom: 5%;
     }
+
+    /*Galeria*/
     .imagem_galeria{
       max-width:340px;
       width:340px;
@@ -142,25 +155,12 @@
     footer h1.logo{font-size: 1.8em; font-family: 'iDroid', Calibri;}
 
     /*ABOUT-PAGE*/
-    
-    .container .main_container{
+    .author-profile{
+        justify-content: flex-start;
     }
-
-    .main_container .contacts{
-        display:block;
-        justify-content:space-around;
-        padding-top:30%;
-        text-align:center;
-        min-width: 400px;
-    }
-
-    .contacts .list-info{
+    .paragraph-about{
         text-align: left;
-        min-width:400px;
-        padding-left: 30%;
-        padding-right:10%;
+        padding-bottom: 5px;
     }
- p, h3{
-    padding: 5%;
- }
+    
 }

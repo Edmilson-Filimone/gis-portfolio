@@ -1,35 +1,44 @@
-/*.main_container contacts
-    .imagem_about
-    .img_about       
-    .list-info*/
 
-.main_container{
+.header_container{
+    top: 0px;
+}
+
+.about_container{
+    margin-top: 120px;
     padding:0% 10% 0% 3%;
 }
 
-.main_container .contacts{
+.author-profile{
     display: flex;
-    justify-content:space-around;
-    padding: 10% 0% 5% 0%;
-    text-align: center;
+    align-items: center;
+    justify-content: end;
+    gap:15px;
+    margin-bottom: 10px;
 }
 
-/*.main_container .contacts .imagem_about{
-    
-}*/
-
-.main_container .contacts .imagem_about .img_about{
-    width:30%;
-    text-align: center;
+.image-profile{
+width: 50px;
+border-radius: 100%;
 }
 
-.contacts .list-info{
-    list-style: none;
-    text-align:left;
-    width: 300px;
-
+.text-profile{
+    font-style: italic;
+    font-size: small;
+    font-weight:200;
 }
 
-.list-info li{
-    padding:2% 0%;
+.title-about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: medium;
 }
+
+.paragraph-about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding-bottom:5px;
+}
+
+
+

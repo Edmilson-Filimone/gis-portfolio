@@ -24,6 +24,11 @@ body {
     min-width: 400px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 /*HEADER*/
 .container .header_container {
     display: grid;
@@ -87,21 +92,21 @@ ul.info li i {
 }
 
 /*ICONES*/
-li span.facebook i {
+li a.linkedin i {
     color: rgb(0, 153, 248);
-    font-size: 34px;
+    font-size: 28px;
     border-radius: 50%;
 }
 
-li span.whatsapp i {
-    color: rgb(56, 202, 117);
-    font-size: 34px;
+li a.github i {
+    color: rgb(87, 87, 87);
+    font-size: 28px;
     border-radius: 50%;
 }
 
-li span.instagram i {
-    color: rgb(248, 141, 0);
-    font-size: 34px;
+li a.profile i {
+    color: rgb(0, 162, 81);
+    font-size: 28px;
     border-radius: 50%;
 }
 
@@ -203,7 +208,7 @@ li span.instagram i {
 .imagem_galeria {
     width: 400px;
     max-width: 400px;
-    height: 280px;
+    height:320px;
 }
 
 .imagem_galeria:hover {
@@ -216,8 +221,8 @@ li span.instagram i {
     font-size: 12px;
 }
 
-/*targing the element li in position 4 - icon*/
-.categ-box ul li:nth-child(4) {
+/*targing the element li in position 3 - icon*/
+.categ-box ul li:nth-child(3) {
     font-size: 24px;
     background-image: -webkit-linear-gradient(95deg, rgba(219, 219, 0, 0.571), rgba(255, 166, 0, 0.522));
 }
@@ -246,7 +251,7 @@ li span.instagram i {
 }
 
 .products .prod_box {
-    height:320px;
+    height:380px;
     border-radius: 8px;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(102, 102, 102, 0.64);
     -moz-box-shadow: 0px 0px 10px 0px rgba(102, 102, 102, 0.64);
@@ -286,6 +291,7 @@ li span.instagram i {
     border: none;
     border-radius: 3px;
     width: 80px;
+    cursor: pointer;
     color: var(--cor-3);
     -webkit-box-shadow: 0px 0px 7px 0px rgba(102, 102, 102, 0.44);
     -moz-box-shadow: 0px 0px 7px 0px rgba(102, 102, 102, 0.44);
@@ -329,15 +335,20 @@ footer .adress {
 
 footer .icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap:5px;
     margin-right: 15%;
 }
 
 .icons li {
     display: inline-block;
-    padding: 4%;
+    padding: 4% 8%;
     font-size: 1.8em;
+
+}
+
+.icons li a{
+    color: white;
 }
 
 footer h1.logo {

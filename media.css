@@ -165,7 +165,8 @@
     }
     /*ABOUT-PAGE*/
     .author-profile{
-        justify-content: center;
+        margin-top: 150px;
+        justify-content:right;
     }
     .paragraph-about{
         text-align: left;

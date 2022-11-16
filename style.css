@@ -315,6 +315,8 @@ li button:hover {
 /*FOOTER*/
 
 footer {
+    position: relative;
+    bottom: -80px;
     display: flex;
     margin-top: 3%;
     padding: 3%;

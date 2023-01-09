@@ -194,6 +194,9 @@ li a.profile i {
     text-transform: uppercase;
 }
 
+.imagem-categoria-container{
+overflow: hidden;
+}
 .imagem_categoria {
     max-width: 80%;
     max-height: 60%;

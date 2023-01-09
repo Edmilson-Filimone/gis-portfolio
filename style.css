@@ -180,6 +180,9 @@ li a.profile i {
 }
 
 .category .categ-box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     background-color: #FFFFFF;
     padding: 7%;
     text-align: center;
@@ -192,16 +195,21 @@ li a.profile i {
 .categ-box ul li {
     padding: 2%;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 .imagem-categoria-container{
 overflow: hidden;
-border-radius: 100%;
+border-radius:250px;
+height: 190px;
+width: 200px;
 }
+
 .imagem_categoria {
-    max-width: 80%;
-    max-height: 60%;
-    
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.1);
+    object-fit:cover;
 }
 
 .imagem_categoria:hover {

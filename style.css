@@ -196,11 +196,12 @@ li a.profile i {
 
 .imagem-categoria-container{
 overflow: hidden;
+border-radius: 100%;
 }
 .imagem_categoria {
     max-width: 80%;
     max-height: 60%;
-    border-radius: 100%;
+    
 }
 
 .imagem_categoria:hover {
